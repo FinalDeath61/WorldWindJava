@@ -5,6 +5,7 @@
 .idea/tasks.xml
 
 .idea/workspace.xml
+*.iml
 
 build
 
@@ -17,4 +18,5 @@ worldwind.jar
 worldwindx.jar
 /dist/
 /nbproject/private/
+/target
 
