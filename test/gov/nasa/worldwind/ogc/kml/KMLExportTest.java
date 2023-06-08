@@ -151,7 +151,7 @@ public class KMLExportTest
         catch (Exception e)
         {
             String message = Logging.getMessage("XML.ValidationFailed", e.getLocalizedMessage());
-            Logging.logger().warning(message);
+            log.warn(message);
             return false;
         }
     }
